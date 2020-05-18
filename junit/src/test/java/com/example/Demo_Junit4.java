@@ -12,7 +12,7 @@ import static org.junit.Assert.assertTrue;
  */
 public class Demo_Junit4 extends TestCase {
     public void setUp() throws Exception {
-        System.out.println("在test启动之前, 先执行setUp这个方法");
+        System.out.println("在test主体启动之前, 先执行setUp这个方法");
     }
 
     public void tearDown() throws Exception {
